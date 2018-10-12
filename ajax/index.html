@@ -1,0 +1,44 @@
+<!-- 
+A teammate of yours started working on the app below, but needs some help.
+ First, they used all div tags, so there's no way of knowing what the content is. 
+ Re-structure the HTML with semantic tags. Second, this page is not accessible. 
+ Re-structure the HTML to make it work correctly for screen readers. Next, write
+  a function that listens for the user to enter their first name in the form below, 
+  and generates a string with the reply, "It's so nice to meet you, [name]!" Finally, 
+  the string that's displayed should be centered horizontally, and all font on the page 
+  should be sans-serif.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="heading">
+       <h1>Hi there! What's your name?</h1>
+    </header>
+    <div class="form">
+      <form id="js-form">
+        <input type="text" name="name-entry" id="name-entry" placeholder="e.g. Eliza"  aria-label="form-for-name">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <main class="results">
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
+mergeDataSets(dataSet1, dataSet2){
+    for(0 -> dataSet1.size when dataSet2.id === dataSet1.id){
+        for(0 -> dataSet2.size){
+            dataSet1.add dataSet2[i].item
+        }
+    }    
+}

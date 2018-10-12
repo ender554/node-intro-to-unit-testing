@@ -1,0 +1,17 @@
+* {
+    font-family: Sans-Serif;
+  }
+  
+  form, .results {
+    margin-top: 50px;
+  }
+  
+  .results {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+  }
+
+  
